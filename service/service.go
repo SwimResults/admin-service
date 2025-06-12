@@ -11,7 +11,7 @@ import (
 var client *mongo.Client
 
 func Init(c *mongo.Client) {
-	database := c.Database(os.Getenv("SR_EXAMPLE_MONGO_DATABASE"))
+	database := c.Database(os.Getenv("SR_ADMIN_MONGO_DATABASE"))
 	client = c
 
 	exampleService(database)

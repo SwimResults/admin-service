@@ -3,10 +3,10 @@ package service
 import (
 	"context"
 	"errors"
+	"github.com/swimresults/admin-service/model"
 	"go.mongodb.org/mongo-driver/bson"
 	"go.mongodb.org/mongo-driver/bson/primitive"
 	"go.mongodb.org/mongo-driver/mongo"
-	"sr-example/example-service/model"
 	"time"
 )
 

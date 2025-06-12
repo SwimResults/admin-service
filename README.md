@@ -1,12 +1,15 @@
-# example-service
+# admin-service
 
-determining if go should be used for apis and microservices
+- admin features
+- monitoring
+- other tools
 
-| features | Java | Go  |
-|----------|------|-----|
-| repo, service, controller structure   |  x   | x   |
-| swagger |x| ?   |
-| spring auth |x| ?   |
-| jdbc |x| x   |
-| hibernate |x| x   |
-| junit tests |x| x   |
+
+## API Endpoints
+
+    [GIN-debug] GET    /actuator                 --> sr-athlete/athlete-service/controller.actuator (3 handlers)
+
+
+---------
+
+© Copyright 2025-2025 - SwimResults & Konrad Weiß

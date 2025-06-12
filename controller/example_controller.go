@@ -2,10 +2,10 @@ package controller
 
 import (
 	"github.com/gin-gonic/gin"
+	"github.com/swimresults/admin-service/model"
+	"github.com/swimresults/admin-service/service"
 	"go.mongodb.org/mongo-driver/bson/primitive"
 	"net/http"
-	"sr-example/example-service/model"
-	"sr-example/example-service/service"
 )
 
 func exampleController() {
