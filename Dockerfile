@@ -4,7 +4,7 @@ FROM golang:1.24-alpine
 
 WORKDIR /app
 
-COPY athlete-service /app/service
+COPY admin-service /app/service
 RUN chmod +x /app/service
 RUN mkdir /app/logs
 
